@@ -1,0 +1,45 @@
+# FastAPI and server dependencies
+fastapi==0.115.0
+uvicorn[standard]==0.30.3
+python-multipart==0.0.9
+
+# Image processing and medical imaging
+numpy==1.26.4
+opencv-python==4.10.0.84
+pillow==10.4.0
+scipy==1.13.1
+scikit-image==0.24.0
+
+# Deep learning frameworks
+# PyTorch (required for MONAI)
+torch==2.5.1
+torchvision==0.20.1
+
+# PyTorch Image Models (timm) - For EfficientNet
+timm==0.9.16
+
+# Image augmentation
+albumentations==1.4.0
+
+# MONAI - Medical imaging AI framework (kept for compatibility)
+monai==1.4.0
+
+# nnU-Net - State-of-the-art medical segmentation
+nnunetv2
+
+# Medical imaging libraries
+nibabel==5.3.2  # For NIfTI files
+pydicom==3.0.1  # For DICOM files
+
+# Additional dependencies for MONAI
+einops==0.8.0
+tqdm==4.66.5
+
+# Utilities
+pydantic==2.9.2
+python-dotenv==1.0.1
+
+# Development
+pytest==8.3.2
+black==24.8.0
+flake8==7.1.1

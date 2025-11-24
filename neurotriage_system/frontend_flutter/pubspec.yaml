@@ -1,0 +1,41 @@
+name: neurotriage_app
+description: NeuroTriage System mobile application for brain anomaly detection
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI and forms
+  cupertino_icons: ^1.0.2
+  
+  # HTTP and file upload
+  http: ^1.1.0
+  dio: ^5.4.0
+  
+  # File picker
+  file_picker: ^6.1.1
+  
+  # Image handling
+  cached_network_image: ^3.3.0
+  
+  # State management (optional, for complex state)
+  provider: ^6.1.1
+  
+  # JSON serialization
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+

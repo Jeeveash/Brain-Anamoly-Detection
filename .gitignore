@@ -1,0 +1,18 @@
+*.md
+*.MD
+*.txt
+*.TXT
+!requirements.txt
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+venv/
+nnU-Net Model Weights/
+neurotriage_system/backend/data/uploads/
+neurotriage_system/backend/data/outputs/
+neurotriage_system/backend/data/patient_data/
+neurotriage_system/backend/models/pretrained/brats_tumor_model/model.pt
+neurotriage_system/backend/models/pretrained/seresnext101_rsna/best.pth
+neurotriage_system/models/pretrained/rsna_hemorrhage_model/model.pt
+
